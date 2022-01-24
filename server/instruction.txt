@@ -1,0 +1,31 @@
+Khởi động: sử dụng Postman
+http://localhost:8525/api/auth-owner/signup
+
+Dữ liệu JSON
+{
+    "name":"mangoc",    
+    "citizenshipNumber":"12345",
+    "phone": "0983494081",
+    "email":"manngoc@gmail.com",
+    "password":"123456",
+    "photo":"",
+    "role":"superadmin"
+
+}
+
+// Phải có role là superadmin mới thêm được địa điểm
+và
+{
+    "name":"gianglt",    
+    "citizenshipNumber":"1234",
+    "phone": "0983494080",
+    "email":"gianglt@gmail.com",
+    "password":"123456",
+    "photo":""
+
+}
+
+
+//Location
+Dữ liệu Distric nằm trong file district.JSON
+
