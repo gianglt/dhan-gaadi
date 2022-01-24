@@ -1,3 +1,21 @@
+
+// Server .env
+DB_USER=holetex
+DB_PASSWORD=danang.2022
+DB_NAME=Cluster0
+MONGO_URI = mongodb+srv://holetex:danang.2022@cluster0.p3cec.mongodb.net/Cluster0?retryWrites=true&w=majority
+userEmail = "gianglt@gmail.com"
+userPass = "danang.2022"
+JWT_SECRET = "danang.2022"
+
+
+// CRM
+REACT_APP_API_URL = http://localhost:8525/api
+REACT_APP_SERVER_ROUTE = http://localhost:8525
+REACT_APP_JWT_SECRET = "danang.2022"
+
+
+
 Khởi động: sử dụng Postman
 http://localhost:8525/api/auth-owner/signup
 
@@ -29,3 +47,6 @@ và
 //Location
 Dữ liệu Distric nằm trong file district.JSON
 
+
+
+//
